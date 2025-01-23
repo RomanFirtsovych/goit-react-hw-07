@@ -1,0 +1,41 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactName {
+    font-size: 18px;
+    color: #333;
+}
+
+.contactNumber {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a71d2a;
+}
